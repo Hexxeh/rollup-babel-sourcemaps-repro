@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/plugin-transform-block-scoped-functions": "^7.0.0",
+    "@babel/plugin-transform-block-scoping": "^7.1.5",
+    "rollup": "^0.67.1",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0"
+  },
+  "dependencies": {
+    "@sentry/browser": "^4.3.0"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  }
+}
